@@ -29,3 +29,7 @@ a {
   flex-direction: column;
   min-height: calc(100vh - var(--bodyPaddingTop));  
 }
+
+.scanline{
+  background-image:url('https://toppng.com/uploads/preview/scanlines-11550718755zzo7lhao5h.png');
+}

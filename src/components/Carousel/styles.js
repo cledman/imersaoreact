@@ -53,3 +53,8 @@ export const VideoCardGroupContainer = styled.section`
   margin-left: 5%;
   margin-bottom: 16px;
 `;
+
+export const Scanlines = styled.div`
+  background-color:red;
+  padding:50px;
+`;
