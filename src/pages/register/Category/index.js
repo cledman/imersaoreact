@@ -75,7 +75,10 @@ const CadastroCategoria = () => {
         <Button>Cadastrar</Button>
       </form>
 
-      {categories.length === 0 && <div>Loading...</div>}
+      {categories.length === 0 && (
+        <div>Loading...</div>
+        )
+      }
 
       <ul>
         {categories.map((category) => {
