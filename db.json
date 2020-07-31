@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Games",
+      "description": "Nossos games",
+      "colour": "#cbd1ff"
+    },
+    {
+      "id": 2,
+      "name": "Filmes",
+      "description": "Nossos filmes",
+      "colour": "#cbd1ff"
+    }
+  ]
+}

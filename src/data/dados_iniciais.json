@@ -6,7 +6,7 @@
       "cor": "#6BD1FF",
       "link_extra": {
         "text": "Conheça os lançamentos que acabaram de chegar!",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "url": "https://"
       },
       "videos": [
         {
@@ -40,7 +40,7 @@
         {
           "titulo": "Kirby´s Dream Land",
           "url": "https://www.youtube.com/watch?v=A6G-4TzDDQ8"
-        }        
+        }
       ]
     },
     {
@@ -48,7 +48,7 @@
       "cor": "#00C86F",
       "link_extra": {
         "text": "Conheça alguns titulos do nosso card de filmes",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "url": "https://"
       },
       "videos": [
         {
@@ -66,7 +66,7 @@
         {
           "titulo": "Esqueceram de Mim 2",
           "url": "https://www.youtube.com/watch?v=qXwOGxO7a6k"
-        }, 
+        },
         {
           "titulo": "Drácula de Bram Stoker",
           "url": "https://www.youtube.com/watch?v=W8ECk66T8nY"
@@ -74,28 +74,28 @@
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Séries",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Séries mais assistidas",
+        "url": "https://"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Melrose",
+          "url": "https://www.youtube.com/watch?v=gNvsFhHSsdA"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Barrados no Baile",
+          "url": "https://www.youtube.com/watch?v=FLEdmU3tDTY"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Power Rangers",
+          "url": "https://www.youtube.com/watch?v=24wz-QZw8MM"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Sai de baixo",
+          "url": "https://www.youtube.com/watch?v=0Sq84HOsULk"
         }
       ]
     },
