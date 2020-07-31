@@ -32,10 +32,9 @@ const CadastroCategoria = () => {
   };
 
   useEffect(() => {
-    console.log("ioa");
     const URL_CATEGORIES = window.location.hostname.includes('localhost') 
     ? 'http://localhost:8080/categories'
-    :  "https://lokadora.herokuapp.com/categories";
+    : 'https://lokadora.herokuapp.com/categories';
     fetch(URL_CATEGORIES)
     .then(async(response) =>{
       const resp = await response.json()

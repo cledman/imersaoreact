@@ -11,6 +11,12 @@
       "name": "Filmes",
       "description": "Nossos filmes",
       "colour": "#cbd1ff"
+    },
+    {
+      "id": 3,
+      "name": "Séries",
+      "description": "Nossos filmes",
+      "colour": "#cbd1ff"
     }
   ]
 }
