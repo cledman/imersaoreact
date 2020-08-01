@@ -12,6 +12,7 @@
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
+  --mainBackground:red;
 }
 
 html,
@@ -32,4 +33,11 @@ a {
 
 .scanline{
   background-image:url('https://toppng.com/uploads/preview/scanlines-11550718755zzo7lhao5h.png');
+}
+
+.preloader {
+  display: flex;
+  flex-direction: row;     
+  justify-content: center; 
+  align-items: center;     
 }

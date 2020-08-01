@@ -3,6 +3,7 @@ import PageDefault from "../../../components/PageDefault";
 import { Link } from "react-router-dom";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
+import Preloader from "../../../components/Preloader"
 
 const CadastroCategoria = () => {
   const initialValues = {
@@ -75,8 +76,12 @@ const CadastroCategoria = () => {
         <Button>Cadastrar</Button>
       </form>
 
+
+
       {categories.length === 0 && (
-        <div>Loading...</div>
+          <div className="preloader">
+            <Preloader size="200" alt="preloader image" title="Carregando..."/>
+        </div>
         )
       }
 
