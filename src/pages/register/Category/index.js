@@ -7,11 +7,12 @@ import Preloader from "../../../components/Preloader"
 import categoriasRepository from '../../../repositories/categorias'
 
 
+
 const CadastroCategoria = () => {
   const initialValues = {
     titulo: "",
     descricao: "",
-    cor: "",
+    cor: "#000000",
   };
   
 
@@ -23,22 +24,29 @@ const CadastroCategoria = () => {
 
   const handleSubmit = (data) => {
     data.preventDefault();
-    setCategories([...categories, values]);
 
-    clearForm(initialValues);
+    if(!values.titulo || !values.descricao){
+      alert("Informe todos os campos!")
+    }
+    else
+    {
+      setCategories([...categories, values]);
 
-    categoriasRepository.create({
-      titulo: values.titulo,
-      cor: values.cor,
-      link_extra: {
-        text: values.descricao,
-        url: "https://www.alura.com.br/cursos-online-programacao"
-      }
-    })
-     .then(() =>{
-       console.log('Cadastrou com sucesso')
-      // history.push('/')
-     })
+      clearForm(initialValues);
+  
+      categoriasRepository.create({
+        titulo: values.titulo,
+        cor: values.cor,
+        link_extra: {
+          text: values.descricao,
+          url: "https://www.alura.com.br/cursos-online-programacao"
+        }
+      })
+       .then(() =>{
+         alert('Cadastrou com sucesso')
+       })
+    }
+
 
 
 

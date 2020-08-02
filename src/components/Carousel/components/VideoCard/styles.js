@@ -23,8 +23,12 @@ export const VideoCardContainer = styled.a`
   transition: opacity .3s;
   &:hover,
   &:focus {
-    opacity: .3;
     background-size: 200%;
+    height:231px;
+    opacity: .3;    
+
+    z-index:999;
+    width:350px
   }
   
  

@@ -43,17 +43,29 @@ const CadastroVideo= () =>{
             return categoria.titulo === values.categoria
          })
 
+         if(!categoriaEscolhida || categoriaEscolhida.id==5){
+          alert("Essa categoria não existe. Informe outra ou cadastre essa categoria")
+         }       
+         else
+         {
+          if(!values.titulo && !values.url){
+            alert("Informe todos os campos!")
+           } 
+
+          videosRepository.create({
+            titulo: values.titulo,
+            url: values.url,
+            categoriaId:categoriaEscolhida.id,
+          })
+           .then(() =>{
+             //console.log('Cadastrou com sucesso:',categoriaEscolhida.id)
+             history.push('/')
+           })
+ 
+         }
+
          //console.log('asdasdasda',categoriaEscolhida)
 
-         videosRepository.create({
-           titulo: values.titulo,
-           url: values.url,
-           categoriaId:categoriaEscolhida.id,
-         })
-          .then(() =>{
-            console.log('Cadastrou com sucesso')
-            history.push('/')
-          })
 
         }}>
 
