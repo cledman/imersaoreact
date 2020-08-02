@@ -24,7 +24,6 @@ function Home() {
       })
   },[])
 
-  //http://localhost:8080/categorias?_embed=videos
 
   return (
     <PageDefault paddingAll={0}>
@@ -43,7 +42,7 @@ function Home() {
                 <BannerMain
                       videoTitle={dadosIniciais[0].videos[0].titulo}
                       url={dadosIniciais[0].videos[0].url}
-                      videoDescription={"Destaque da semana!"}
+                      videoDescription={"Onde só os clássicos têm vez!"}
                     />
 
                     <Carrousel
