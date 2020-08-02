@@ -4,37 +4,33 @@ import { Link } from "react-router-dom";
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
 import Preloader from "../../../components/Preloader"
+import useForm from '../../../hooks/useForm'
+
 
 const CadastroCategoria = () => {
   const initialValues = {
-    name: "",
+    titulo: "",
     description: "",
     colour: "",
   };
+  
+
+  const  {handleChange, values, clearForm} = useForm(initialValues)
+
   const [categories, setCategories] = useState([]);
-  const [values, setValues] = useState(initialValues);
 
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
 
-  const handleChange = (info) => {
-    setValue(info.target.getAttribute("name"), info.target.value);
-  };
 
   const handleSubmit = (data) => {
     data.preventDefault();
     setCategories([...categories, values]);
 
-    setValues(initialValues);
+    clearForm(initialValues);
   };
 
   useEffect(() => {
     const URL_CATEGORIES = window.location.hostname.includes('localhost') 
-    ? 'http://localhost:8080/categories'
+    ? 'http://localhost:8080/categorias'
     : 'https://lokadora.herokuapp.com/categories';
     fetch(URL_CATEGORIES)
     .then(async(response) =>{
@@ -87,7 +83,7 @@ const CadastroCategoria = () => {
 
       <ul>
         {categories.map((category) => {
-          return <li key={`${category.name}`}>{category.name}</li>;
+          return <li key={`${category.titulo}`}>{category.titulo}</li>;
         })}
       </ul>
 
