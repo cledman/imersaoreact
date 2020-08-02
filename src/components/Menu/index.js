@@ -10,13 +10,13 @@ const Menu = () =>{
     return(
         <nav className='Menu'>
             <Link to="/">
-                <Logo className="Logo" alt="AluraFlix logo" title="Home"/>
-                
+                <Logo className="Logo" alt="AluraFlix logo" title="Home"/>                
             </Link>
 
             <Button as={Link} className="ButtonLink" to="/register/video"> 
                 Novo vídeo
             </Button>
+        
         </nav>
     )
 }

@@ -26,6 +26,15 @@
         "text": "Cursos de Data Science na Alura",
         "url": "https://www.alura.com.br/cursos-online-mobile"
       }
+    },
+    {
+      "titulo": "Pdozinha",
+      "cor": "#0000a0",
+      "link_extra": {
+        "text": "Essa é a minha pdozinha!",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "id": 4
     }
   ],
   "videos": [
@@ -53,7 +62,6 @@
       "titulo": "Street Fighter II: The World Warrior",
       "url": "https://www.youtube.com/watch?v=SgUTGvwey5U"
     },
-    
     {
       "id": 8,
       "categoriaId": 2,
@@ -191,6 +199,18 @@
       "url": "https://www.youtube.com/watch?v=OS-IcYTvLaI",
       "categoriaId": 4,
       "id": 30
+    },
+    {
+      "titulo": "Phil",
+      "url": "https://www.youtube.com/watch?v=Y7JfT-rdrm8",
+      "categoriaId": 2,
+      "id": 31
+    },
+    {
+      "titulo": "Minha mozza Brava",
+      "url": "https://www.youtube.com/watch?v=ss_OxsZf5nQ",
+      "categoriaId": 4,
+      "id": 32
     }
   ]
 }

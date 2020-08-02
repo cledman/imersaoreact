@@ -2,6 +2,26 @@ import config from '../config'
 
 const URL_CATEGORIES = `${config.URL_BACKEND}/categorias`
 
+function create (objetoDaCategoria) {
+
+    return fetch(`${URL_CATEGORIES}`, {
+       method: 'POST' ,
+       headers: {
+           'Content-type': 'application/json',
+       },
+       body: JSON.stringify(objetoDaCategoria),
+    })
+        .then(async(response) =>{
+        if(response.ok){
+            const resposta = await response.json()
+            return resposta              
+        }    
+      
+        throw new Error('Não foi possível cadastrar os dados')
+    })     
+    
+}
+
 function getAll() {
 
     return fetch(`${URL_CATEGORIES}`)
@@ -31,6 +51,7 @@ function getAllWithVideos () {
 }
 
 export default {
+    create,
     getAll,
     getAllWithVideos,
 }

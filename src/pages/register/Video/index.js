@@ -12,9 +12,9 @@ const CadastroVideo= () =>{
     const [categorias, setCategorias] = useState([])
     const categoryTitles = categorias.map(({ titulo }) => titulo)
     const {handleChange, values} = useForm({
-      titulo:'video padrão',
-      url: 'https://www.youtube.com/watch?v=OS-IcYTvLaI',
-      categoria: 'Games'
+      titulo:'',
+      url: '',
+      categoria: ''
     })
 
     useEffect( () =>{
@@ -31,6 +31,10 @@ const CadastroVideo= () =>{
       <PageDefault>
         <h1>Cadastro de Vídeo</h1>
 
+        
+        <Link className="linkCategories" to="/register/category">
+            + Categoria
+        </Link>
         <form onSubmit={(event)=>{
           event.preventDefault()
          // alert("vídeo cadastrado!")
@@ -39,7 +43,7 @@ const CadastroVideo= () =>{
             return categoria.titulo === values.categoria
          })
 
-         console.log('asdasdasda',categoriaEscolhida)
+         //console.log('asdasdasda',categoriaEscolhida)
 
          videosRepository.create({
            titulo: values.titulo,
@@ -82,9 +86,6 @@ const CadastroVideo= () =>{
           <Button type="submit">Cadastrar</Button>
           </form>
 
-          <Link to="/register/category">
-            Cadastrar Categoria
-          </Link>
         
       </PageDefault>
     )

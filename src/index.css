@@ -12,7 +12,7 @@
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
-  --mainBackground:red;
+  --mainBackground:url("assets/img/quadradinho.png");
 }
 
 html,
@@ -35,6 +35,28 @@ a {
   background-image:url('https://toppng.com/uploads/preview/scanlines-11550718755zzo7lhao5h.png');
 }
 
+.linkCategories{
+  background: #303439;
+  border: 1px solid white;
+  border-radius: 5px;
+  color:white;
+  display: block;
+  margin-bottom:10px;
+  padding: 5px;
+  width:9%;
+}
+
+a.linkCategories{
+  text-decoration: none !important;
+}
+
+
+#id_colour{
+  border:1px solid white;
+  display: inline-flex;
+  height:80px !important;
+  width: 30%;
+}
 .preloader {
   display: flex;
   flex-direction: row;     

@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, {useEffect, useState} from 'react'
 import PageDefault from "../../../components/PageDefault";
-import { Link } from "react-router-dom";
+import useForm from '../../../hooks/useForm'
 import FormField from "../../../components/FormField";
 import Button from "../../../components/Button";
 import Preloader from "../../../components/Preloader"
-import useForm from '../../../hooks/useForm'
+import categoriasRepository from '../../../repositories/categorias'
 
 
 const CadastroCategoria = () => {
   const initialValues = {
     titulo: "",
-    description: "",
-    colour: "",
+    descricao: "",
+    cor: "",
   };
   
 
@@ -26,6 +26,23 @@ const CadastroCategoria = () => {
     setCategories([...categories, values]);
 
     clearForm(initialValues);
+
+    categoriasRepository.create({
+      titulo: values.titulo,
+      cor: values.cor,
+      link_extra: {
+        text: values.descricao,
+        url: "https://www.alura.com.br/cursos-online-programacao"
+      }
+    })
+     .then(() =>{
+       console.log('Cadastrou com sucesso')
+      // history.push('/')
+     })
+
+
+
+    
   };
 
   useEffect(() => {
@@ -40,32 +57,33 @@ const CadastroCategoria = () => {
       ])
     })
   },[])
+
   return (
     <PageDefault>
-      <h1>Cadastro da Categoria {values.name}</h1>
+      <h1>Cadastro da Categoria {values.titulo}</h1>
 
       <form onSubmit={handleSubmit}>
         <FormField
           label="Nome da categoria"
           type="text"
-          name="name"
-          value={values.name}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
           label="Descrição"
           type="textarea"
-          name="description"
-          value={values.description}
+          name="descricao"
+          value={values.descricao}
           onChange={handleChange}
         />
 
         <FormField
           label="Cor"
           type="color"
-          name="colour"
-          value={values.colour}
+          name="cor"
+          value={values.cor}
           onChange={handleChange}
         />
 
@@ -87,7 +105,7 @@ const CadastroCategoria = () => {
         })}
       </ul>
 
-      <Link to="/">Ir para home</Link>
+      
     </PageDefault>
   );
 };
