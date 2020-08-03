@@ -56,20 +56,23 @@ export const VideoCardGroupContainer = styled.section`
 
 export const SubTitle = styled.span`
   color:white;
-  background-color:rgba(0, 0, 0, 0.8);;  
+  background-color:rgba(0, 0, 0, 0.8); 
   display:block;
   font-family: 'Anton', sans-serif;
   font-size:1em;
   left:2px;
   letter-spacing:1px;
-  max-width:299px !important;
+  max-width:299px;
   padding:3px;  
   padding-left:5px;
   position: relative;
   overflow:hidden;
+  text-shadow: 2px 2px #000;
   top:-40px;
   width:93%;
+  
 
   z-index:999 !important;
+
   
 `;

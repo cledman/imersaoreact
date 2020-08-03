@@ -24,11 +24,24 @@ export const VideoCardContainer = styled.a`
   &:hover,
   &:focus {
     background-size: 200%;
+    border-color:#fff !important;
     height:231px;
-    opacity: .3;    
-
+    border-left:-0px 0 17px #0ff;
+    top:-10px;
     z-index:999;
-    width:350px
+    width:350px;
+    box-shadow:
+    inset 0 0 5px #fff,
+    inset 2px 0 8px #f0f,
+    inset -2px 0 18px #0ff,
+    inset 2px 0 3px #f0f,
+    inset -2px 0 3px #0ff,
+
+    -10px 0px 20px #fff,
+    10px 0px 80px #f0f,
+    -0px 0 112px #0ff;
+        
+
   }
   
  

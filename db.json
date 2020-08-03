@@ -6,16 +6,16 @@
       "cor": "#6BD1FF",
       "link_extra": {
         "text": "Os clássicos da semana!",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "url": "https://www.uol.com.br/start/album/2019/06/08/dez-jogos-classicos-dos-anos-90-que-seus-filhos-devem-gostar.htm"
       }
     },
     {
       "id": 2,
-      "titulo": "Filmes",
+      "titulo": "Filme",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Filmes mais pedidos",
+        "url": "https://www.dicasdemulher.com.br/filmes-anos-90/"
       }
     },
     {
@@ -23,81 +23,18 @@
       "titulo": "Séries",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "Séries que amamos!",
+        "url": "https://www.minhaserie.com.br/novidades/46720-as-50-series-mais-marcantes-dos-anos-90"
       }
     },
     {
-      "titulo": "Pdozinha",
-      "cor": "#0000a0",
+      "titulo": "Desenhos",
+      "cor": "#f4ec06",
       "link_extra": {
-        "text": "Essa é a minha pdozinha!",
+        "text": "Desenhos que amamos!",
         "url": "https://www.alura.com.br/cursos-online-programacao"
       },
       "id": 4
-    },
-    {
-      "titulo": "",
-      "cor": "",
-      "link_extra": {
-        "text": "",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "id": 5
-    },
-    {
-      "titulo": "",
-      "cor": "",
-      "link_extra": {
-        "text": "",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "id": 6
-    },
-    {
-      "titulo": "as",
-      "cor": "",
-      "link_extra": {
-        "text": "",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "id": 7
-    },
-    {
-      "titulo": "asd",
-      "cor": "",
-      "link_extra": {
-        "text": "",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "id": 8
-    },
-    {
-      "titulo": "a",
-      "cor": "",
-      "link_extra": {
-        "text": "aaa",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "id": 9
-    },
-    {
-      "titulo": "qweqweqwe",
-      "cor": "",
-      "link_extra": {
-        "text": "qweqwe",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "id": 10
-    },
-    {
-      "titulo": "asd66",
-      "cor": "#000000",
-      "link_extra": {
-        "text": "asdasd",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "id": 11
     }
   ],
   "videos": [
@@ -127,249 +64,111 @@
     },
     {
       "id": 8,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "categoriaId": 1,
+      "titulo": "Mega Man V",
+      "url": "https://www.youtube.com/watch?v=7m3ZfMT9lgs"
     },
     {
       "id": 9,
-      "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "categoriaId": 1,
+      "titulo": "Batman Returns",
+      "url": "https://www.youtube.com/watch?v=gOH_95GYgKM"
     },
     {
       "id": 10,
-      "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "categoriaId": 1,
+      "titulo": "Virtua Racing",
+      "url": "https://www.youtube.com/watch?v=mjpID0lkgcg"
     },
     {
       "id": 11,
-      "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-    },
-    {
-      "id": 12,
-      "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-    },
-    {
-      "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-    },
-    {
-      "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-    },
-    {
-      "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-    },
-    {
-      "id": 16,
-      "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-    },
-    {
-      "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-    },
-    {
-      "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-    },
-    {
-      "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-    },
-    {
-      "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-    },
-    {
-      "id": 21,
-      "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-    },
-    {
-      "id": 22,
-      "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-    },
-    {
-      "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-    },
-    {
-      "id": 24,
-      "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-    },
-    {
-      "titulo": "video padrão",
-      "url": "https://www.youtube.com/watch?v=OS-IcYTvLaI",
       "categoriaId": 1,
+      "titulo": "Kirby´s Dream Land",
+      "url": "https://www.youtube.com/watch?v=A6G-4TzDDQ8"
+    },
+    {
+      "titulo": "Máquina Mortífera 3",
+      "url": "https://www.youtube.com/watch?v=A1a47LiR6Pk",
+      "categoriaId": 2,
+      "id": 12
+    },
+    {
+      "titulo": "Alladin",
+      "url": "https://www.youtube.com/watch?v=jkdYkE1xgqQ",
+      "categoriaId": 2,
+      "id": 13
+    },
+    {
+      "titulo": "O Guarda-Costas",
+      "url": "https://www.youtube.com/watch?v=1paxg2eyApY",
+      "categoriaId": 2,
+      "id": 14
+    },
+    {
+      "titulo": "Esqueceram de Mim 2",
+      "url": "https://www.youtube.com/watch?v=qXwOGxO7a6k",
+      "categoriaId": 2,
+      "id": 15
+    },
+    {
+      "titulo": "Drácula de Bram Stoker",
+      "url": "https://www.youtube.com/watch?v=W8ECk66T8nY",
+      "categoriaId": 2,
+      "id": 16
+    },
+    {
+      "titulo": "Melrose",
+      "url": "https://www.youtube.com/watch?v=gNvsFhHSsdA",
+      "categoriaId": 3,
+      "id": 17
+    },
+    {
+      "titulo": "Barrados no Baile",
+      "url": "https://www.youtube.com/watch?v=FLEdmU3tDTY",
+      "categoriaId": 3,
+      "id": 18
+    },
+    {
+      "titulo": "Power Rangers",
+      "url": "https://www.youtube.com/watch?v=24wz-QZw8MM",
+      "categoriaId": 3,
+      "id": 19
+    },
+    {
+      "titulo": "Sai de baixo",
+      "url": "https://www.youtube.com/watch?v=0Sq84HOsULk",
+      "categoriaId": 3,
+      "id": 20
+    },
+    {
+      "titulo": "Caverna do Dragão",
+      "url": "https://www.youtube.com/watch?v=hisJGpf1TNg",
+      "categoriaId": 4,
+      "id": 21
+    },
+    {
+      "titulo": "He-man",
+      "url": "https://www.youtube.com/watch?v=3eVNjzv5aac",
+      "categoriaId": 4,
+      "id": 22
+    },
+    {
+      "titulo": "Tiny Toons",
+      "url": "https://www.youtube.com/watch?v=ecEtfHkykHo",
+      "categoriaId": 4,
+      "id": 23
+    },
+    {
+      "titulo": "Transformers",
+      "url": "https://www.youtube.com/watch?v=ZFqUc7-1fEo",
+      "categoriaId": 4,
+      "id": 24
+    },
+    {
+      "titulo": "Cavalo de Fogo",
+      "url": "https://www.youtube.com/watch?v=5J8jY-exXTY",
+      "categoriaId": 4,
       "id": 25
-    },
-    {
-      "titulo": "video padrão",
-      "url": "https://www.youtube.com/watch?v=OS-IcYTvLaI",
-      "categoriaId": 1,
-      "id": 26
-    },
-    {
-      "titulo": "video padrão",
-      "url": "https://www.youtube.com/watch?v=OS-IcYTvLaI",
-      "categoriaId": 1,
-      "id": 27
-    },
-    {
-      "titulo": "video padrão",
-      "url": "https://www.youtube.com/watch?v=OS-IcYTvLaI",
-      "categoriaId": 1,
-      "id": 28
-    },
-    {
-      "titulo": "video padrão",
-      "url": "https://www.youtube.com/watch?v=OS-IcYTvLaI",
-      "categoriaId": 2,
-      "id": 29
-    },
-    {
-      "titulo": "tttttttttttttttttttttttttttt",
-      "url": "https://www.youtube.com/watch?v=OS-IcYTvLaI",
-      "categoriaId": 4,
-      "id": 30
-    },
-    {
-      "titulo": "Phil",
-      "url": "https://www.youtube.com/watch?v=Y7JfT-rdrm8",
-      "categoriaId": 2,
-      "id": 31
-    },
-    {
-      "titulo": "Minha mozza Brava",
-      "url": "https://www.youtube.com/watch?v=ss_OxsZf5nQ",
-      "categoriaId": 4,
-      "id": 32
-    },
-    {
-      "titulo": "",
-      "url": "",
-      "categoriaId": 5,
-      "id": 33
-    },
-    {
-      "titulo": "",
-      "url": "",
-      "categoriaId": 5,
-      "id": 34
-    },
-    {
-      "titulo": "",
-      "url": "",
-      "categoriaId": 5,
-      "id": 35
-    },
-    {
-      "titulo": "",
-      "url": "",
-      "categoriaId": 5,
-      "id": 36
-    },
-    {
-      "titulo": "",
-      "url": "",
-      "categoriaId": 5,
-      "id": 37
-    },
-    {
-      "titulo": "",
-      "url": "",
-      "categoriaId": 5,
-      "id": 38
-    },
-    {
-      "titulo": "classic",
-      "url": "https://www.youtube.com/watch?v=IEzaLf7voho",
-      "categoriaId": 5,
-      "id": 39
-    },
-    {
-      "titulo": "teste",
-      "url": "https://www.youtube.com/watch?v=IEzaLf7voho",
-      "categoriaId": 4,
-      "id": 40
-    },
-    {
-      "titulo": "qqq",
-      "url": "https://www.youtube.com/watch?v=IEzaLf7voho",
-      "categoriaId": 5,
-      "id": 41
-    },
-    {
-      "titulo": "aaa",
-      "url": "https://www.youtube.com/watch?v=IEzaLf7voho",
-      "categoriaId": 5,
-      "id": 42
-    },
-    {
-      "titulo": "a",
-      "url": "asd",
-      "categoriaId": 5,
-      "id": 43
-    },
-    {
-      "titulo": "asdasdsadasd",
-      "url": "asd",
-      "categoriaId": 5,
-      "id": 44
-    },
-    {
-      "titulo": "",
-      "url": "",
-      "categoriaId": 5,
-      "id": 45
-    },
-    {
-      "titulo": "asdasdasdsa",
-      "url": "categoriaEscolhida.id",
-      "categoriaId": 5,
-      "id": 46
-    },
-    {
-      "titulo": "aasdasd",
-      "url": "asd",
-      "categoriaId": 4,
-      "id": 47
-    },
-    {
-      "titulo": "teste street",
-      "url": "https://www.youtube.com/watch?v=SgUTGvwey5U",
-      "categoriaId": 4,
-      "id": 48
     }
   ]
 }
